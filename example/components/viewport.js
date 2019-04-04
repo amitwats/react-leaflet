@@ -2,6 +2,7 @@
 
 import React, { Component } from 'react'
 import { Map, TileLayer, type Viewport } from '../../src'
+import 'leaflet/dist/leaflet.css';
 
 const DEFAULT_VIEWPORT = {
   center: [51.505, -0.09],
